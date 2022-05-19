@@ -1,0 +1,211 @@
+.contenSeriesMovies {
+    padding: 1.6rem;
+}
+
+.buscador
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.d3
+{
+    display: flex;
+    background: #ffffff;
+    border: 2px solid #838383;
+    width: 80%;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.search-field {
+    font-weight: 400;
+    border: 0px;
+    outline: none;
+    padding: 0rem 0.6rem;
+    background: #0000;
+    height: 2.6rem;
+    color: #000;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.search-btn {
+    height: 2.6rem;
+    width: 3rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    border-left: 1px solid #f3f3f3;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-input
+{
+    display: none;
+}
+
+.srchicon {
+    stroke-width: 1.4;
+    border-radius: 5px;
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: none;
+    stroke: #4f4f4f;
+    box-shadow: none;
+    display: block;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: .2s ease;
+}
+
+.SeriesMovies
+{
+    margin-top: 1.8rem;
+}
+
+
+figure {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.enlace
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover 
+{
+  text-decoration: none;
+  color:#fff;
+}
+
+
+.liMovie
+{
+  background-color:  #16191e;
+  border-radius: 8px;
+}
+
+.liMovie:hover
+{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.movies {
+  display: grid;
+  grid-gap: 2.8em;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movies > li {
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+
+.movie img {
+  padding: 0.19rem 0.19rem 0rem 0.19rem;
+}
+
+.imgSeriesMovies
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie figcaption {
+  padding: 1em;
+}
+
+.movie__title {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.texto
+{
+  text-align: justify;
+}
+
+.division
+{
+  margin-bottom:18px ;
+  margin-left: 10px;
+}
+
+.figuraMovie{
+  height: 30rem;
+}
+
+.imagenSerie
+{
+  height: 100%;
+}
+
+.titulos
+{
+  color: #f6f7f9;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.card-text
+{
+  color: black;
+  font-size: 0.91rem;
+}
+
+.casts {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.noResultados
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contfigure
+{
+  width: 75%;
+}
+
+.table
+{
+  --bs-table-bg: white;
+}
+
+.card
+{
+  --bs-card-bg: #f2f2f2;
+}
